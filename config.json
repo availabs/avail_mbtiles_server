@@ -3,10 +3,7 @@
     "paths": {
       "root": ""
     },
-    "domains": [
-      "localhost:8080",
-      "127.0.0.1:8080"
-    ],
+    "domains": [ "*" ],
     "formatQuality": {
       "jpeg": 80,
       "webp": 90

@@ -9,6 +9,6 @@
   "author": "Paul Tomchik",
   "license": "MIT",
   "dependencies": {
-    "tileserver-gl": "^3.0.0"
+    "tileserver-gl-light": "^3.0.0"
   }
 }
