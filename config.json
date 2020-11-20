@@ -1,0 +1,44 @@
+{
+  "options": {
+    "paths": {
+      "root": ""
+    },
+    "domains": [
+      "localhost:8080",
+      "127.0.0.1:8080"
+    ],
+    "formatQuality": {
+      "jpeg": 80,
+      "webp": 90
+    },
+    "maxScaleFactor": 3,
+    "maxSize": 2048,
+    "pbfAlias": "pbf",
+    "serveAllFonts": false,
+    "serveAllStyles": false,
+    "serveStaticMaps": true,
+    "tileMargin": 0
+  },
+  "styles": {
+    "basic": {
+      "style": "basic.json",
+      "tilejson": {
+        "type": "overlay",
+        "bounds": [
+          8.44806,
+          47.32023,
+          8.62537,
+          47.43468
+        ]
+      }
+    }
+  },
+  "data": {
+    "npmrds_2019": {
+      "mbtiles": "./data/npmrds_2019.mbtiles"
+    },
+    "shared_streets_20200910": {
+      "mbtiles": "./data/shst_references_20200910.mbtiles"
+    }
+  }
+}
