@@ -8,3 +8,10 @@ for AVAIL's vector tiles.
 ```bash
 ./start
 ```
+
+or
+
+```bash
+forever start ./node_modules/.bin/tileserver-gl-light --port 9779 --verbose
+```
+
